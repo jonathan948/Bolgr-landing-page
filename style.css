@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Ubuntu;
+    background:  hsl(0, 0%, 100%)
+}
+
+
+
+/*NAVBAR SECTION*/
+.btn-one{
+    width: 130px;
+    border-radius: 30px;
+    background: white;
+    border: solid  white;
+    color: hsl(12, 88%, 59%);
+    padding: 5px;
+}
+
+.btn-two{
+    width: 130px;
+    border-radius: 30px;
+    border: solid 1px white;
+    color: hsl(12, 88%, 59%);
+    padding: 5px;
+}
+
+/* MAIN SECTION */
+.editor{
+    margin-left: 30%;
+}
+.c{
+    overflow: hidden;
+}
+
+/* SECOND MAIN SECTION*/
+.style{
+    background:hsl(208, 49%, 24%);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    box-shadow: 0 0 10px 
+}
+
+.state{
+    margin-top: 10%;
+}
+
+/* FOOTER SECTION */
+ul{
+    list-style: none;
+    cursor: pointer;
+    color:    hsl(240, 2%, 79%);
+}
+
+li:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+/* MOBILE SECTION*/
+@media (max-width: 768px){
+    .editor{
+        margin-left: 0;
+    }
+
+    .btn-two{
+    margin-top: 10px;
+    }
+
+  .state{
+      padding: 30px;
+  }
+
+  .row{
+      text-align: center
+  }
+}
+
+
+
